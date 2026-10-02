@@ -1,0 +1,14 @@
+# The dsh-tool-podcast bundle patch: one insert adding the podcast tool suite.
+#
+# Needs a local ffmpeg / ffprobe. On this machine they live under C:/AI/ffmpeg,
+# so point the config at them rather than relying on PATH:
+#
+#   - id: tool-podcast
+#     config:
+#       ffmpegPath: C:/AI/ffmpeg/ffmpeg-release-full/bin/ffmpeg.exe
+#       ffprobePath: C:/AI/ffmpeg/ffmpeg-release-full/bin/ffprobe.exe
+#       outputDir: C:/Users/<you>/Music/podcast-output
+
+- insert:
+    - id: tool-podcast
+      name: dsh-tool-podcast

@@ -1,0 +1,21 @@
+{
+  "title": "Sample Podcast",
+  "language": "en",
+  "author": "yuehancn",
+  "category": "Technology",
+  "explicit": false,
+  "episodes": [
+    {
+      "title": "First Episode",
+      "url": "https://example.com/ep1.mp3",
+      "length": 55301,
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Second Episode",
+      "url": "https://example.com/ep2.mp3",
+      "length": 24876,
+      "type": "audio/mpeg"
+    }
+  ]
+}

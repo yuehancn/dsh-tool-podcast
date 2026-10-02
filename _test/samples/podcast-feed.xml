@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sample Podcast</title>
+    <link>https://example.com</link>
+    <description>A feed written for verify-feed.py</description>
+    <language>en</language>
+    <generator>dsh-tool-podcast</generator>
+    <itunes:author>yuehancn</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>First Episode</title>
+      <description>First Episode</description>
+      <pubDate>Tue, 01 Oct 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">https://example.com/ep1.mp3</guid>
+      <enclosure url="https://example.com/ep1.mp3" length="55301" type="audio/mpeg"/>
+      <itunes:duration>0:13</itunes:duration>
+    </item>
+    <item>
+      <title>Second Episode</title>
+      <description>Second Episode</description>
+      <guid isPermaLink="false">https://example.com/ep2.mp3</guid>
+      <enclosure url="https://example.com/ep2.mp3" length="24876" type="audio/mpeg"/>
+      <itunes:duration>0:06</itunes:duration>
+    </item>
+  </channel>
+</rss>
